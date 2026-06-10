@@ -1,7 +1,35 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.PerpustakaanMusik" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <style name="Theme.SonicLumina" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/sonic_primary</item>
+        <item name="colorPrimaryVariant">#494bd6</item>
+        <item name="colorOnPrimary">@color/sonic_on_primary</item>
+        <item name="colorSecondary">@color/sonic_secondary</item>
+        <item name="colorOnSecondary">@color/sonic_on_secondary</item>
+        <item name="android:statusBarColor">?attr/colorOnSurface</item>
+        <item name="android:background">@color/sonic_background</item>
+        <item name="android:textColor">@color/sonic_on_background</item>
+    </style>
+
+    <style name="SonicTypography.HeadlineLarge" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="fontFamily">@font/sora_extra_bold</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SonicTypography.TitleMedium" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/sora_bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SonicTypography.BodyMedium" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/hanken_grotesk_regular</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="SonicTypography.LabelSmall" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/jetbrains_mono_medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.05</item>
     </style>
 </resources>
